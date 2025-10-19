@@ -28,4 +28,14 @@ Mount Points
 Directory 	Description
 /mnt 	Temporary mount point for external filesystems.
 /media 	Mount point for removable media (USB, CDs).
+
 /data 	Likely your mounted volume from Windows (C:/ubuntu-data).
+
+
+/sbin is a system binary directory — it contains essential system administration executables (programs and commands) that are usually used by the root (superuser).
+
+/lib is a system directory that contains shared libraries — these are files that programs and the operating system need to run.
+
+/bin stands for “binary”, and it contains essential user command binaries — the basic programs needed for the system to boot, repair itself, and allow users to work. These are commands that both normal users and root can run.
+
+/boot holds the bootloader and kernel files that your system needs to start up. Without this directory, Linux cannot boot.
