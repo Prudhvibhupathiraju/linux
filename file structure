@@ -39,3 +39,19 @@ Directory 	Description
 /bin stands for “binary”, and it contains essential user command binaries — the basic programs needed for the system to boot, repair itself, and allow users to work. These are commands that both normal users and root can run.
 
 /boot holds the bootloader and kernel files that your system needs to start up. Without this directory, Linux cannot boot.
+
+File system in Linux
+
+ / is the top directory
+
+/root is the home directory the root user who have full administrative access
+
+/bin holds basic commands like ls, cp, mv, rm
+
+/sbin holds the commands used by the Super user like mount , shutdown
+
+/lib holds essential shared libraries and kernel modules required by commands in /bin and /sbin.
+
+/usr
+ 
+
