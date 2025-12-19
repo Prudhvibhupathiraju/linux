@@ -42,16 +42,26 @@ Directory 	Description
 
 File system in Linux
 
- / is the top directory
+Directories are divided into 
+binary directories, --> /bin, /sbin, /lib, /opt
+configuration directories, --> /boot, /etc
+Data directories, 
+memory directories 
+usr(unix system resources) 
+var(variable directories)
 
-/root is the home directory the root user who have full administrative access
+/ is the top directory
 
-/bin holds basic commands like ls, cp, mv, rm
+/root is the home directory the root user who have full administrative access 
 
-/sbin holds the commands used by the Super user like mount , shutdown
+/bin holds user binaries, executable files basic commands like ls, cp, mv, rm
+
+/sbin holds the binaries, executable that containing root privileges commands used by the Super user like mount , shutdown
 
 /lib holds essential shared libraries and kernel modules required by commands in /bin and /sbin.
 
-/usr
+/opt holds optional application software packages. if we install 3rd party application packges like if we import packages to install
+
+
  
 
