@@ -52,11 +52,11 @@ var(variable directories)
 
 / is the top directory
 
-/root is the home directory the root user who have full administrative access 
+/root is the home directory to the root user who have full administrative access 
 
 /bin holds user binaries, executable files basic commands like ls, cp, mv, rm
 
-/sbin holds the binaries, executable that containing root privileges commands used by the Super user like mount , shutdown
+/sbin holds the binaries, executable files that containing root privileges (commands used by the Super user like mount , shutdown)
 
 /lib holds essential shared libraries and kernel modules required by commands in /bin and /sbin.
 
