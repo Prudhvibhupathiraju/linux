@@ -1,2 +1,2 @@
 whoami - To display the name of the user that has loogged in
-apt list --installed package-name --> to check if the particular package is installed (ubuntu)
+apt list --installed package-name --> to check if the particular package is installed (ubuntu, debian)
