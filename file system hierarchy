@@ -141,5 +141,5 @@ Stores temporary runtime data
 
 /proc shows system information, /run stores temporary data used by running programs.
 
-
+/dev stores special files that represent hardware devices so the system can communicate with them.
 
