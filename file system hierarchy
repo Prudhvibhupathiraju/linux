@@ -45,7 +45,7 @@ File system in Linux
 Directories are divided into 
 binary directories, --> /bin, /sbin, /lib, /opt
 configuration directories, --> /boot, /etc
-Data directories, 
+Data directories,  --> /home  /root /srv /media /mnt /tmp
 memory directories 
 usr(unix system resources) 
 var(variable directories)
@@ -62,6 +62,84 @@ var(variable directories)
 
 /opt holds optional application software packages. if we install 3rd party application packges like if we import packages to install
 
+/boot holds the files that are required during system boot
 
- 
+/etc(Extension of conf)
+Configuration files of the system are stored in /etc.
+
+/home holds user's personal files
+
+/srv holds server specific data that is accessed by user
+
+/media acts as mount point for removable devices like cd rom, floppy and usb
+
+/mnt is used to temporarily mount file systems manually. 
+
+/tmp holds temporary data like cache. The data in /tmp is deleted when the system is rebooted.
+
+/usr stores programs and files that do NOT change while the system is running.
+
+It contains:
+
+Programs (commands)
+
+Libraries
+
+Documentation
+
+Examples:
+
+/usr/bin → user commands
+
+/usr/lib → libraries
+
+/usr/share → shared data
+
+👉 Think of /usr as installed software.
+
+/var (Variable Directories)
+
+/var stores files that change while the system is running.
+
+It contains:
+
+Log files
+
+Cache files
+
+Mail
+
+Spool files
+
+Examples:
+
+/var/log → system logs
+
+/var/cache → cache data
+
+/var/spool → print/mail queues
+
+👉 Think of /var as changing data.
+
+Simple rule to remember
+
+/usr → static (doesn’t change much)
+
+/var → variable (changes often)
+
+/proc
+
+Shows information about running processes and system
+
+/sys
+
+Shows hardware and device information
+
+/run
+
+Stores temporary runtime data
+
+/proc shows system information, /run stores temporary data used by running programs.
+
+
 
