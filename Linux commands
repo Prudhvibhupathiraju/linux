@@ -1,3 +1,20 @@
 whoami - To display the name of the user that has loogged in
 apt list --installed package-name --> to check if the particular package is installed (ubuntu, debian)
 cd ~ --> changes directory to home directory of the particular user
+pwd -> displays present working directory
+ls -> displays all available contents in the current directory
+cd <directory_name> --> changes directory
+cd / -> changes to root directory
+cd <directory_path> -> changes to directory in the path
+cd .. -> changes directory back in one step in path
+clear -> clears the screen
+mkdir <dirctory name> -> creates directory
+rmdir <directory name> -> removes directory
+sudo apt update / sudo apt-get update -> to display all the missing patches needed to be installed
+sudo apt upgrade / sudo apt-get upgrade -> to install all the missing patches
+nano <file name> --> used to open nano editor (used to edit the file)(Ctrl+O to save and Ctrl+x to exit the editor)
+sudo apt install <package_name> --> to install particular package
+vim <file_name> --> used to open vim editor (used to edit the file)(esc and :wq to save the file esc and i to edit the file)
+cat <file name> --> used to display the contents of the file
+
+
