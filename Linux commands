@@ -16,5 +16,10 @@ nano <file name> --> used to open nano editor (used to edit the file)(Ctrl+O to 
 sudo apt install <package_name> --> to install particular package
 vim <file_name> --> used to open vim editor (used to edit the file)(esc and :wq to save the file esc and i to edit the file)
 cat <file name> --> used to display the contents of the file
-
-
+ps -ef --> used to view all the running process on the device with full format (-e all process on the system) (-f full format)
+touch <file_name> --> used to create a file
+cat <file_name> --> used to display the contents in the file
+cp <file_name> <new_file_name> --> copies the file and creates a new file
+rm -f <file_name> --> rm removes the file -f removes without asking
+rm -rf * -> Deletes every thing in the directory
+mv <file_name> <new_path/new_file_name> --> moves to specified path and renames the file with new name
