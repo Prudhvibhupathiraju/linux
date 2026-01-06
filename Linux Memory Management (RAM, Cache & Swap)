@@ -1,0 +1,21 @@
+Program 
+it is a static file stored in a disk
+it contains instructions written by a developer
+
+process
+A process is a program in execution
+it is active loaded into RAM
+It has Process ID (PID), Memory, CPU time and State (running, sleeping, stopped)
+
+CPU time
+it is actual time the CPU spends executing the program
+
+RAM(Random Access Memory) is the temporary working memory of a computer
+
+RAM is stores running programs(processes) , data needed right now, kernel and system services file cache (to speed things up)
+
+Kernel is the core of an operating system that manages the hardwar resources and allows software to interact with them
+
+RAM temporarrily holds the data and instructions that are needed by CPU to perform operations
+
+Memory usage shows how much RAM is occupied, while CPU usage shows how much processing power used at a given time
