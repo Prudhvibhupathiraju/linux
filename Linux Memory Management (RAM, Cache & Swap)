@@ -19,3 +19,6 @@ Kernel is the core of an operating system that manages the hardwar resources and
 RAM temporarrily holds the data and instructions that are needed by CPU to perform operations
 
 Memory usage shows how much RAM is occupied, while CPU usage shows how much processing power used at a given time
+
+In Linux, unused RAM = wasted RAM., Linux uses free memory for Cache (recently used files) and Buffers (disk I/O optimization)
+
