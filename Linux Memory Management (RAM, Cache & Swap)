@@ -22,3 +22,8 @@ Memory usage shows how much RAM is occupied, while CPU usage shows how much proc
 
 In Linux, unused RAM = wasted RAM., Linux uses free memory for Cache (recently used files) and Buffers (disk I/O optimization)
 
+Whenever a command or script is executed, the kernel loads the program and required data from disk into RAM, and the CPU performs operations on the data stored in RAM
+
+The kernel does not let free RAM sit idle; it uses available memory as cache and buffers to improve performance.
+
+When applications need memory, the kernel automatically and instantly clears cache and buffers to free RAM.
