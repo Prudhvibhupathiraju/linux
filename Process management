@@ -1,0 +1,6 @@
+Process - Running program
+program - static file in disk
+PID - unique ID for process
+All services are processes but all process are not services
+
+A service is a process that runs in background continously which starts at boot
