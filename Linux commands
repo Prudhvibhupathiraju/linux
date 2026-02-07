@@ -23,3 +23,4 @@ cp <file_name> <new_file_name> --> copies the file and creates a new file
 rm -f <file_name> --> rm removes the file -f removes without asking
 rm -rf * -> Deletes every thing in the directory
 mv <file_name> <new_path/new_file_name> --> moves to specified path and renames the file with new name
+who -b --> shows last boot time
