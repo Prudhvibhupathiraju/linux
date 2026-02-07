@@ -1,0 +1,13 @@
+A Linux system contacts package repositories through the internet using configured repository URLs.
+
+Working steps:
+
+Repository configuration
+
+The system stores repository server addresses in configuration files:
+
+RHEL/CentOS:
+/etc/yum.repos.d/*.repo
+
+Ubuntu/Debian:
+/etc/apt/sources.list
