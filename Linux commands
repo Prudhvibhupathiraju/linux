@@ -25,3 +25,4 @@ rm -rf * -> Deletes every thing in the directory
 mv <file_name> <new_path/new_file_name> --> moves to specified path and renames the file with new name
 who -b --> shows last boot time
 | grep -i --> -i for case insentivity
+find -type d -name "<Directory_Name>" -> to view th path of specific directory
