@@ -1,0 +1,14 @@
+/etc - contains repository and package manager configuration files
+important files :
+/etc/yum.repos.d/ --> repository definitions (RHEl/CentOS)
+/etc/dnf/dnf.conf
+/etc/apt/sources.list(Ubuntu/debian)
+
+/var -> Important during patching
+Key subdirectories
+/var/cache -> downloaded packages stored temporarily
+/var/lib/rpm -> rpm database (  The RPM database is a local database on RPM-based Linux systems (Redhat, CentOS, AlmaLinux) that stores information about packages managed by RPM package manager)
+/var/lib/dnf or /var/lib/yum - package metadata
+/var/logs - patching logs
+if /var is full updates fail
+
