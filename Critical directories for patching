@@ -12,3 +12,6 @@ Key subdirectories
 /var/logs - patching logs
 if /var is full updates fail
 
+/usr -> Installed packages and binaries are updated here during patching
+/boot -> Important when kernel patching
+/tmp -> /tmp used for temporary extraction of packages during updates
