@@ -1,0 +1,148 @@
+Linux Learning Summary
+1. Core Linux Fundamentals
+
+Linux File System Hierarchy
+
+Shell and system concepts
+
+Critical directories important for patching
+
+Linux vulnerabilities (kernel, software, network, misconfiguration, authentication issues)
+
+
+2. User, Identity and Privilege Management
+
+User handling and account management
+
+Linux identity management
+
+User privilege management (sudo)
+
+File permissions (read, write, execute)
+
+Special permissions (SUID, SGID, Sticky bit)
+
+Access Control Lists (ACL)
+
+
+3. Package and Service Management
+
+Package managers: yum, dnf, apt
+
+Installing, updating and removing packages
+
+Systemd and service management
+
+Daemon processes
+
+4. Process and CPU Management
+
+Process creation (fork & exec)
+
+Process hierarchy
+
+Process states
+
+Process scheduling and priority
+
+Foreground & background processes
+
+5. Memory Management
+
+Virtual memory concepts
+
+Free, used and available memory
+
+Buffers and cache
+
+Swap memory and shared memory
+
+Out-Of-Memory (OOM)
+
+6. Disk and Storage Management
+
+Disks and storage devices
+
+Partition creation
+
+Filesystem creation
+
+Mounting filesystems
+
+Logical Volume Manager (LVM)
+
+Prepare system for LVM
+
+Create volumes
+
+Format and mount logical volumes
+
+Remove LVM
+
+7. RAID and Shared Storage
+
+Creating RAID arrays
+
+Creating filesystem on RAID
+
+Mounting RAID storage
+
+8. Backup and Compression
+
+Backup concepts
+
+File compression techniques
+
+9. Networking and Remote Access
+
+Network adapter configuration (AlmaLinux & Ubuntu)
+
+Name resolution configuration
+
+SSH server and client installation
+
+Secure remote access configuration
+
+Linux firewall configuration and rules
+
+10. Automation and Scheduling
+
+Cron jobs configuration
+
+User cron jobs and system cron jobs
+
+Scheduling tasks (daily, weekly, specific date)
+
+11. Scripting and Command-line Skills
+
+Searching files using grep
+
+Working with regular expressions
+
+Interactive and non-interactive scripts
+
+Scripts using loops and conditions
+
+12. Containers and Version Control
+
+Running containers on Linux
+
+Container automation
+
+Creating Git repositories
+
+Version control using Git
+
+13. System Administration Skills Practiced
+
+Package management troubleshooting
+
+Process management tasks
+
+Service management tasks
+
+Disk management and memory management
+
+Remote connectivity management
+
+Shared storage management
