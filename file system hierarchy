@@ -143,3 +143,13 @@ Stores temporary runtime data
 
 /dev stores special files that represent hardware devices so the system can communicate with them.
 
+/ is the top level directory all files and directories exits under /
+/bin contains essential command binaries used by all users 
+/etc stores configuration files
+/home -> users home directories
+/var -> store frequently changing data ie /var/log
+/usr -> User application and programs
+/dev -> represents hardware devices as files
+/tmp -> stores temperary files created by programs
+
+
