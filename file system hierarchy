@@ -169,4 +169,5 @@ Stores temporary runtime data
 /dev -> /dev stands for devices (It contains files that represent hardware devices in Linux) (in Linux every thing is treated as files) like hard disks
 /proc - used to store system and process information it does not store files on disk, it is created in memory while the system is running
 /tmp - /tmp stores temporary files( files that are needed for short time, files that can be deleted after use)
+/sys stores hardware and kernel information it is created in memory and data is generated ny the kernel
 
