@@ -1,0 +1,29 @@
+User -> Shell -> Kernel -> hardware
+
+A Shell is a program that lets you talk to the linux system
+shell works as a middle layer for user and the kernel
+
+you type a command shell understands it and sends it to the kernel 
+kernel talks to the hardware and gives the result back
+
+
+Kernel -> Kernel is the core of the operating system
+It controls CPU, Memory, Disk, Devices and processes
+you cannot talk directly to the kernel you need shell
+
+Example
+you type ls
+shell reads the command
+shell asks kernel to list files
+kernel reads the disk
+output comes back to you (all happens in seconds)
+
+default in most linux systems (Bash) (bourne again shell) 
+
+Types of shell
+interactive shell
+you type the commands manually
+non interactive shell
+you run scripts (myscripts.sh)
+
+
