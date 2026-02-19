@@ -152,4 +152,21 @@ Stores temporary runtime data
 /dev -> represents hardware devices as files
 /tmp -> stores temperary files created by programs
 
+/ - root directory ( top level directory it is a base of every thing )
+/bin - binaries it contains basic commands that the system need to work properly ( it stores main commands you system need to start properly, run basic tasks and fix properly) 
+/sbin - system binaries It contains important system and admin command to manage and control the system (root user commands) 
+/etc - /etc folder contains configuration files ( Users and passwords, Network Configuration, Services(SSH, Apache), System startup, Software settings
+/home - user home directories
+/var - is a directory that contains variable data ( data that changes frequently) files that keep updating or growing (log files, application data, mail files, cache files, temporary files)
+/usr - /usr stores program, application and system files used by the users ( main software storage area of linux ) 
+/usr/bin - normal user commands 
+/usr/sbin - Admin commands
+/usr/lib - stores library files needed by the programs ( library file contain a common code that many programs use every program instead of having its own copy of code they share it from here) 
+/usr/share contains shared non binary files like documentation manual pages etc
+/usr/local - contains software installed manually not by using dnf,yum,apt
+/opt -> third party software is stored in /opt
+/boot is a directory that stores files needed to boot the files linux file system
+/dev -> /dev stands for devices (It contains files that represent hardware devices in Linux) (in Linux every thing is treated as files) like hard disks
+/proc - used to store system and process information it does not store files on disk, it is created in memory while the system is running
+/tmp - /tmp stores temporary files( files that are needed for short time, files that can be deleted after use)
 
