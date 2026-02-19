@@ -1,0 +1,15 @@
+when we give command yum update -y
+yum looks inside /etc/yum.repos.d/* for .rep files
+in .repo file contains information of which servers to contact, whether they are enabled how to connect securely
+yum connects to those servers and downloads metadata (Metadata means list of packages available, their versions, their dependencies and security info) 
+this information is stored in /var/cache/dnf
+It checks what is already installed in /var/lib/rpm (rpm is a database it contains package names installed versions and installation history)
+now yum compares installed versions vs online versions
+any new versions are marked for update
+yum now downloads real update files .rpm files temporarily in /var/cache/dnf
+Before installing dnf checks Digital signature(GPG key) and file integrity (if verification fails installation stops)
+Now the installation starts RPM does stop related services(if required), removes old package files copies new files into system updates config files and runs install scripts
+files may change in /usr/bin, /usr/lib, /etc, /var
+/var/lib/rpm RPM database is updated 
+if kernel is updated new files are stored in /boot reboot required to update the kernel version 
+
