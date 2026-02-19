@@ -13,3 +13,36 @@ files may change in /usr/bin, /usr/lib, /etc, /var
 /var/lib/rpm RPM database is updated 
 if kernel is updated new files are stored in /boot reboot required to update the kernel version 
 
+Boot process 
+BIOS/UEFI runs
+GRUB Loads Kernel and vmlinuz file (Grand Unified BootLoader) 
+
+/boot has 
+vmlinuz(Kernel File) This is a kernel file (core of the OS) When you update kernel new vmlinuz file is stored here
+initramfs (Initial RAM Filesystem) is needed to load drivers, detect disks, Activate LVM/RAID and mounts root file system
+GRUB bootloader files
+during patching New kernel file is saved in /boot
+GRUB configuration is updated 
+old kernel is kept as backup
+if /boot is full kernel update will fail
+
+/etc (configuration files)
+Some packages are update config files
+if config break services may not start after patch
+
+/var 
+packages are downloaded into /var/cache/dnf
+logs are written into /var/log
+if /var is full update will fail
+
+/usr 
+when packages are updated old binaries are replaced and newer versions are installed 
+
+/lib or /lib64
+Many programs depend on shared libraries
+
+/opt 
+Third party apps depend on system libraries
+
+
+
