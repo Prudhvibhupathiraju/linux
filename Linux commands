@@ -30,3 +30,4 @@ ueradd -> creating user
 groupadd -> creating group
 usermod -aG <group_name> <user_name> -> adds user to existing group
 usermod -G <group_name> <user_name> -> adds user to existing group but deletes from other groups
+passwd -S <user_name> -> check whether the account is locked L -> locked P -> active NP -> no password set
