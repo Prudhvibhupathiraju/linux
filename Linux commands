@@ -26,3 +26,7 @@ mv <file_name> <new_path/new_file_name> --> moves to specified path and renames 
 who -b --> shows last boot time
 | grep -i --> -i for case insentivity
 find -type d -name "<Directory_Name>" -> to view th path of specific directory
+ueradd -> creating user
+groupadd -> creating group
+usermod -aG <group_name> <user_name> -> adds user to existing group
+usermod -G <group_name> <user_name> -> adds user to existing group but deletes from other groups
