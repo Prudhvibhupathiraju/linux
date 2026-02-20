@@ -1,4 +1,8 @@
 Vulnerability means weak points in the system that the attackers use to break in, steal data and control the system
+
 Kernel Vunlerability
 if a kernel has a vulnerability whole system is at risk
-Privilege 
+Privilege Escalation
+Normal user becomes root user (user runs special exploit and gets root access
+Buffer overflow
+Program writes too much data into memory 
