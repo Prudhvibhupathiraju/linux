@@ -5,4 +5,37 @@ if a kernel has a vulnerability whole system is at risk
 Privilege Escalation
 Normal user becomes root user (user runs special exploit and gets root access
 Buffer overflow
-Program writes too much data into memory 
+Program writes too much data into memory. This allows attckers to run the malicious code
+Outdated kernel bugs
+Old kernel versions may have known security flaws
+
+Kernel vulnerability fix : Keep the kernel updated, reboot after patch
+
+Software Vulnerabilities 
+These are vulnerabilities in software applications
+Not kernel - But programs like   Appache, mysql Openssl etc
+causes
+Outdated packages
+Old versions of packages may contain security flaws
+Unpatched service
+Third party applications - Software in /opt may not get updated
+Fix - Regular patching
+
+Network Vulnerabilities
+Attackers scan internet for open ports
+open ports
+Weak firewall rules
+Unsecured SSH
+
+Misconfiguration Issues
+File permission 777
+SE Linux Disabled
+Weak Password Policy
+Unrestricted sudo access
+Fix use proper file permissions, Keep SE Linux enforcing, Configure strong password policies, limit sudo access
+
+Authentication Vulnerabilities
+Weak passwords
+No MFA
+SSH root login enabled
+
