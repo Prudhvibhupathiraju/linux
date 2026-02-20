@@ -1,0 +1,59 @@
+Types of users in Linux
+In Linux every user has User ID (UID).
+The system uses this number to identify the users internally
+
+Root User (UID = 0)
+The root user is the superuser or administrator of the system
+has full control and can do any thing in the system
+Root can install or remove software, add or delete users, change system settings, modify any file(even other user's files), start/stop system services
+root has no restrictions, a wrong command can damage the system, hence normal users use (sudo <command>) this gives temporary root pemissions 
+Full control access (Yes)
+
+System Users (UID 1 - 999)
+These users are created automatically when you install linux or software
+They are used by services and applications
+services need permission to run securely
+if service is hacked only service related user is affected not the entire system
+Full control access (Limited)
+
+Normal Users (UID 1000+)
+These are normal users who login to the system
+when you create a user the UID starts from 1000
+normal users can access their own files run programs use installed applications
+Full control access (No)
+
+GID ( system groups < 1000, Normal groups >= 1000 ) 
+
+UID range used to identify type of user, apply permissions, improve security and seperate services from humans
+
+/etc/passwd - this file stores basic information about all users it does not store passwords, it contains username, UID, GID, Home directory, Default shell
+prudhvi:x:1001:1001::/home/prudhvi:/bin/bash ( here x means password is stored in /etc/shadow) (passwords are moved to /etc/shadow for security reasons on new linux systems)
+username : password_place_holder : UID : GID : coment : home directory : shell
+
+/etc/shadow - this file stores actual encrypted passwords ( only root can read this file )
+john:$6$randomhashvalue:19850:0:99999:7:::
+username : encrypted password : password last changed : min days of password expiry : max days of password expiry : warning num of days : inactive(account disable after password expiry) : Expiry Date :
+if account is locked you might see * or !
+sample 
+john:!$6$abc123hashvalue:19850:0:99999:7:::
+john:*:19850:0:99999:7:::
+
+/etc/group
+This file defines groups in Linux groups are used to share file permissions, control access
+developers:x:1002:john,raj
+group name : password place holder : GID : group members
+
+/etc/gshadow
+this contains group passwords ( now a days group passwords are not used)
+developers:!::
+groupname:encrypted_password:group_admins:group_members
+
+/etc/login.defs
+this defines default values when creating users
+ex : UID starting num, password aging rules
+
+/etc/skel
+when you create a new user linux copies files from /etc/skel to home directory of the user
+
+
+
