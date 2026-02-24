@@ -55,5 +55,26 @@ ex : UID starting num, password aging rules
 /etc/skel
 when you create a new user linux copies files from /etc/skel to home directory of the user
 
+Special permissions
 
+SUID (Set User ID) - Value = 4
+- Works on executable file(programs)
 
+When user runs the program
+the program runs with file owner's permissions, not the user's permissions
+it temporarily borrows file owner's permissions
+
+SGID (Set Group ID) - Value =2
+it works differently for files and directories
+on executable files (it runs with file group permissions)
+on directory, any file created inside a directory will automatically inherit the directory's group
+without SGID 
+User1 creates file -> group = user 1's primary group
+User2 creates file -> group = user 2's primary group
+
+with SGID
+drwxrwsr-x  project_dir
+s in group position
+chmod 2775 project_dir
+2 -> SGID
+775 -> normal permission
