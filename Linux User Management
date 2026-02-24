@@ -78,3 +78,15 @@ s in group position
 chmod 2775 project_dir
 2 -> SGID
 775 -> normal permission
+
+Sticky Bit - Value =1
+Works on direxctories only
+In a shared directory only the file owner can delete their file even if others have write permission
+without sticky bit any file can be deleted by anybody
+With sticky bit only file owner, directory owner and root can delete the file
+
+ACL (Access control list)
+if file permissions are needed to grant for specific user then ACL are needed
+
+
+
