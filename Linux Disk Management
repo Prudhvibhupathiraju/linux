@@ -1,0 +1,13 @@
+A physical disk is actual hardware device that stores data in a computer or server that stores the data permanently 
+means the data remains even after the device is powered off
+
+A partition is a logical section of a physical disk (HDD or SSD) 
+It allows one physical disk (HDD or SSD) to be split into multiple seperate sections and each section is treated as each independent disk
+
+A filesystem is the structure that allows linux to store, organize and access the files on a disk or partition 
+It defines how data is written, stored, retreived and organized
+
+Mount points in linux  are the directories where the filesystem is attached so that it contents become accessible to the system 
+
+Disk Usage shows how much storage space is used on the disk
+
