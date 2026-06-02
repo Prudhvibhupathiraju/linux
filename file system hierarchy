@@ -171,3 +171,11 @@ Stores temporary runtime data
 /tmp - /tmp stores temporary files( files that are needed for short time, files that can be deleted after use)
 /sys stores hardware and kernel information it is created in memory and data is generated ny the kernel
 
+/ -> Root Filesystem (Topmost Directory), Without / the system cannot boot
+/etc - > Configuration files (Contains system configuration files) used for user accounts, networking, services, mounts and authentication
+/home -> Stores normal user data
+/var -> Variable data contains changing data (/var/log, var/tmp) 
+/tmp -> Temporary storage, any one can write here files may be deleted after reboot
+/boot -> conatins kernel, initramfs and bootloader
+/dev -> linux treats devices as files /dev/sda, /dev/xvda, /dev/xvdb
+/proc -> virtual filesystem created in memory 
