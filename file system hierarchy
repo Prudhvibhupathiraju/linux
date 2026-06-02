@@ -206,3 +206,6 @@ Inode
 An inode is a metadata structure describing a file 
 It stores permissions,owner, group and timestamp
 does not store filename
+
+Mount points 
+Directories where the filesystem becomes accessible
