@@ -179,3 +179,30 @@ Stores temporary runtime data
 /boot -> conatins kernel, initramfs and bootloader
 /dev -> linux treats devices as files /dev/sda, /dev/xvda, /dev/xvdb
 /proc -> virtual filesystem created in memory 
+
+Absolute path -> always gives complete location (/data/app/file1.txt)
+relative path -> path from current directory (cat app/file1.txt)
+
+cat ./scripts -> current directory
+cd .. -> Parent directory
+
+Links in linux allow multiple ways to access files 
+They are 2 main types 
+Hard links
+Soft liks
+
+Hard link is the simply another filename pointing to the same inode and same data blocks
+file data is deleted when all the hardlinks to the file are deleted
+
+Soft Link
+A soft link stores path to another file 
+ln -S file1 Softlink
+soft link has different inode
+cancross filesystem
+can link directories
+Breaks if original is deleted
+
+Inode 
+An inode is a metadata structure describing a file 
+It stores permissions,owner, group and timestamp
+does not store filename
