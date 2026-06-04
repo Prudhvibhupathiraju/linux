@@ -1,0 +1,40 @@
+Linux has file permissions
+read r 4
+write w 2
+excute x 1
+
+linux also has special permissions 
+SUID           Run program as file owner
+SGID           Inherit group / run with group permissions
+Sticky Bit     Prevent users from deleting others files
+
+SUID -  when a user runs a file, the file runs with owners permission not the users permission
+
+For example if users excute the passwd command 
+
+while executing the file users will have temporary owner permissions to write the password to file while executing 
+
+normal users cannot write the file directly 
+
+this is possible with SUID
+chmod 4755 file name here 4 is for SUID
+
+SGID
+it works differently for both files and directories
+
+if an user the excute the files the file runs with group's privileges 
+
+if a file is created inside a directory, file is created with users group not the directory ' s group 
+
+with SGID enabled for a directory the file created inside the directory will be created with the directory 's group
+chmod 2755 file_name 2 is for SGID
+
+sticky bit
+in a directory the with write permission enabled, any user can delete any user's files
+with sticky bit enabled only users can delete their files not others files
+drwxrwxrwt
+here t reperesents sticky bit enabled
+and excute access is enaled
+drwxrwxrwT
+here T reperesents sticky bit enabled
+and excute access is not enabled
