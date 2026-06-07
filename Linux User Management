@@ -88,5 +88,22 @@ With sticky bit only file owner, directory owner and root can delete the file
 ACL (Access control list)
 if file permissions are needed to grant for specific user then ACL are needed
 
+A user is an account to access the linux system
 
+Every process in linux runs under some user
 
+Example users: 
+root
+ec2-user
+oracle
+john
+
+Types of user
+Root User: The super user/ admin user
+normal user : humans those who login
+System user : Used by services and applications
+
+/etc/passwd stores basic information
+/etc/shadow stores encrypted passwords
+/etc/group stores group information
+/etc/sudoers 
